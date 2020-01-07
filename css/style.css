@@ -44,7 +44,7 @@ body {
 .swiper-container {
   width: 100%;
   height: 100%;
-  padding: 100px 0 50px;
+  padding: 80px 0 50px;
 }
 
 .swiper-slide {
@@ -57,9 +57,21 @@ body {
   width: 100%;
 }
 
+nav img {
+  float: left;
+  padding-right: 60px;
+  padding-top: 10px;
+  width: 179px;
+}
+
+.additional {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 15px;
+}
+
 nav {
-  border-bottom: 2px solid grey;
-  margin: 20px 120px 0;
+  margin: 80px 70px 0 110px;
 }
 
 nav ul {
@@ -68,8 +80,11 @@ nav ul {
   display: flex;
   -ms-flex-pack: end;
       justify-content: flex-end;
-  float: right;
   font-size: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 50px 110px 50px 50px;
 }
 
 nav a {
@@ -80,24 +95,32 @@ nav a {
   border: none;
 }
 
-li {
+ul a:hover {
+  border-bottom: 2px solid black;
+}
+
+nav li {
   padding: 10px;
+  font-size: 25px;
 }
 
-ul {
-  margin-top: 55px;
-}
-
-nav span {
-  position: absolute;
-  padding-top: 55px;
-  padding-left: 15px;
+nav p {
   font-size: 40px;
 }
 
+.logo {
+  width: 26vw;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .space_img {
-  padding: 50px;
-  padding-top: 55px;
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 35px;
 }
 
 .cards {
