@@ -266,12 +266,13 @@
 }
 
 .swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
     border-radius: 100%;
     background: #000;
     opacity: 0.2;
+    outline: 0;
 }
 
 button.swiper-pagination-bullet {
@@ -371,6 +372,7 @@ button.swiper-pagination-bullet {
 
 .swiper-pagination-white {
     --swiper-pagination-color: #ffffff;
+    --swiper-pagination-color: black;
 }
 
 .swiper-pagination-black {
