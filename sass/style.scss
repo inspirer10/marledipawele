@@ -72,7 +72,7 @@ nav img {
 }
 
 nav {
-    margin: 80px 70px 0 110px;
+    margin: 50px 70px 0 110px;
 }
 
 nav ul {
@@ -120,10 +120,11 @@ nav p {
     font-size: 35px;
 }
 
-.cards {
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid grey;
+.high {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: normal;
 }
 
 .reservation_btn {
@@ -846,6 +847,12 @@ div.arrow {
 footer {
     background-color: rgba(13, 13, 13, 0.9);
     text-align: center;
+}
+
+.footer-fix {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 footer p {
