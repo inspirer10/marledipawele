@@ -646,7 +646,7 @@ div.arrow {
 .contact {
     display: -ms-flexbox;
     display: flex;
-    height: calc(100vh - 64px);
+    height: 65vh;
     color: #fff;
 }
 
@@ -660,7 +660,7 @@ div.arrow {
     flex-direction: column;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/salonik.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -675,7 +675,7 @@ div.arrow {
     -ms-flex-positive: 1;
     flex-grow: 1;
     width: 100%;
-    height: calc(100vh - 64px);
+    height: 65vh;
     padding: 0 30px;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -736,7 +736,7 @@ div.arrow {
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100vh - 64px);
+    height: 65vh;
 }
 
 @media (max-width: 1024px) {
