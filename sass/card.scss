@@ -4,20 +4,21 @@
 
 .cards {
     display: flex;
-    justify-content: center;
-    border-bottom: 2px solid grey;
-    margin-top: 60px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 300px;
 }
 
 .cards-fix {
-    border-bottom: none;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .card {
     position: relative;
     width: 300px;
     height: 450px;
-    margin: 50px;
+    margin: 50px auto;
     display: inline-block;
 }
 
@@ -25,6 +26,26 @@
     overflow: hidden;
     height: 100%;
     border: 2px solid grey;
+}
+
+.box {
+    //display: inline-block;
+    margin: 40px;
+    width: 270px;
+    border: 2px solid rgb(100, 100, 100);
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    min-height: 270px;
+    text-align: center;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front a {
+    text-decoration: none;
+    color: black;
 }
 
 .card .front .image img {
