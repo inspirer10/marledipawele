@@ -54,6 +54,11 @@ nav .down li {
     margin: 0 400px;
 }
 
+.marley {
+    height: 40vh;
+    margin-bottom: 10px;
+}
+
 .about_me {
     font-family: 'lato';
     text-align: center;
@@ -80,6 +85,7 @@ nav .down li {
     color: white;
 }
 
+.about h1,
 #about h1 {
     font-family: "Book Antiqua";
     display: block;
@@ -96,6 +102,7 @@ nav .down li {
     padding-bottom: 20px;
 }
 
+.about p,
 #about p {
     text-align: center;
     font-size: 16px;
@@ -110,8 +117,13 @@ nav .down li {
     padding: 80px 0 40px;
 }
 
+.about p:nth-of-type(2) {
+    font-family: 'Yesteryear', cursive;
+    font-size: 35px;
+}
+
 #about p:nth-of-type(8) {
-    padding: 70px 0;
+    padding: 60px 0 30px;
 }
 
 #about p:last-of-type {
