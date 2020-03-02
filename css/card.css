@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 0 300px;
+  margin: 10px 300px;
+  padding-bottom: 10vw;
 }
 
 .cards-fix {

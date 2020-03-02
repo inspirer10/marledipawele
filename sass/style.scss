@@ -757,9 +757,7 @@ div.arrow {
 
 .contact .information .wrap {
     position: absolute;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -779,15 +777,14 @@ div.arrow {
 }
 
 .contact .information .info {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     padding: 10px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact .information .info .contact-icon {
-    -ms-flex-preferred-size: 20%;
     flex-basis: 20%;
     text-align: center;
     font-size: 30px;
@@ -795,7 +792,6 @@ div.arrow {
 }
 
 .contact .information .info .text {
-    -ms-flex-positive: 1;
     flex-grow: 1;
     font-size: 16px;
 }
