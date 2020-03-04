@@ -21,6 +21,13 @@ body {
   height: 100%;
 }
 
+.bg_img {
+  background-image: url(../images/home_img1.png);
+  padding-bottom: 73vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .active {
   border: 2px solid black;
   display: inline-table;
@@ -179,7 +186,8 @@ nav img {
 }
 
 nav {
-  margin: 50px 70px 0 110px;
+  margin: 0 120px;
+  padding-top: 20px;
 }
 
 nav ul {
@@ -192,7 +200,7 @@ nav ul {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 50px 110px 50px 50px;
+  padding: 60px 110px 50px 50px;
 }
 
 nav a {
@@ -227,6 +235,16 @@ nav p {
       flex-direction: column;
   display: -ms-flexbox;
   display: flex;
+}
+
+.icon {
+  text-align: center;
+  font-size: 7rem;
+  background-color: #444444;
+  border-radius: 50%;
+  width: 50%;
+  color: white;
+  margin: 45px auto 0;
 }
 
 .space_img {
