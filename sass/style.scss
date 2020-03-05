@@ -242,6 +242,24 @@ nav p {
     margin: 45px auto 0;
 }
 
+.icons {
+    text-align: right;
+}
+
+.icons i {
+    border-radius: 50%;
+    font-size: 30px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px 15px 0;
+    width: 55px;
+    text-align: center;
+}
+
+.icons .fa-facebook-f {
+    margin: 10px 0 0 10px;
+}
+
 .space_img {
     border-bottom: 2px solid black;
     text-align: center;
@@ -789,7 +807,7 @@ div.arrow {
     text-align: center;
     text-transform: uppercase;
     font-size: 28px;
-    padding: 80px 20px 20px;
+    padding: 40px 20px 20px;
     color: white;
     letter-spacing: 2px;
 }
