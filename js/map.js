@@ -139,12 +139,14 @@
 
         });
 
-        var markerIcon = 'https://img.icons8.com/plasticine/2x/dog.png';
+        var markerIcon = 'https://img.icons8.com/plasticine/1x/dog.png';
+        var logo = "../images/icon.png";
 
         var marker = new google.maps.Marker({
             position: gdansk,
             map: map,
-            //icon: markerIcon,
+            icon: markerIcon,
+            //icon: logo
         });
     }
 })();

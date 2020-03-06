@@ -16,6 +16,12 @@ body {
     padding: 0;
 }
 
+::selection {
+    color: white;
+    background: rgba(167, 115, 48, 0.726);
+    //background: goldenrod;
+}
+
 html,
 body {
     position: relative;
@@ -143,10 +149,19 @@ nav .down li {
 }
 
 #about .yesteryear {
-    font-family: 'Yesteryear', cursive;
+    font-family: 'Yesteryear', cursive !important;
     font-size: 33px;
     letter-spacing: 1.67px;
     padding: 0;
+    font-weight: normal !important;
+}
+
+.about_homepage p {
+    font-weight: normal !important;
+    font-family: "lato" !important;
+    text-align: center;
+    //word-spacing: 7px;
+    //letter-spacing: 1px;
 }
 
 .about_homepage h3 {
@@ -258,6 +273,25 @@ nav p {
 
 .icons .fa-facebook-f {
     margin: 10px 0 0 10px;
+    transition: .6s;
+}
+
+.icons .fa-instagram {
+    transition: .6s;
+}
+
+.icons .fa-facebook-f:hover {
+    background-color: royalblue;
+    color: white;
+    border-color: white;
+    transform: scale(1.15)
+}
+
+.icons .fa-instagram:hover {
+    color: rgb(164, 31, 226);
+    background: white;
+    border-color: rgb(164, 31, 226);
+    transform: scale(1.15);
 }
 
 .space_img {
@@ -459,6 +493,12 @@ nav p {
 @media (max-width: 1024px) {
     .about-us div.text p {
         margin: 30px 50px;
+    }
+}
+
+@media (max-width: 940px) {
+    .cards {
+        margin: 10px;
     }
 }
 
