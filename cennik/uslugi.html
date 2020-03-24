@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/8cb5ea09ee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/swiper.min.css" />
     <link rel="stylesheet" href="../css/card.css" />
+    <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="../css/style.css" />
 </head>
 
@@ -35,7 +36,7 @@
                 <ul>
                     <li><a href="../index.html">HOME</a></li>
                     <li class="active show">
-                        <a href="#">CENNIK</a>
+                        <a href="index.html">CENNIK</a>
                         <ul class="down">
                             <li><a href="rasy.html">WG RAS</a></li>
                             <li><a href="uslugi.html">WG USŁUG</a></li>
@@ -61,40 +62,122 @@
     <section class="cards">
 
         <div class="box">
-            KĄPIEL OCZYSZCZAJĄCA
+            <a href="#modal-one" class="show-modal">KĄPIEL OCZYSZCZAJĄCA PIELĘGNACYJNA I LECZNICZA</a>
         </div>
 
         <div class="box">
-            CZESANIE Z WYCZESYWANIEM KOŁTUNKÓW
+            <a href="#modal-two" class="show-modal">CZESANIE Z WYCZESYWANIEM KOŁTUNKÓW</a>
         </div>
 
         <div class="box">
-            TRYMOWANIE
+            <a href="#modal-three" class="show-modal">TRYMOWANIE</a>
         </div>
 
         <div class="box">
-            CZYSZCZENIE PIĘLEGNACJE USZU
+            <a href="#modal-four" class="show-modal">CZYSZCZENIE PIĘLEGNACJE USZU</a>
         </div>
 
         <div class="box">
-            WIZYTA ADAPTACYJNA ZE SZCZENIACZKIEM
+            <a href="#modal-five" class="show-modal">WIZYTA ADAPTACYJNA ZE SZCZENIACZKIEM</a>
         </div>
 
         <div class="box">
-            PRZYCINANIE PAZURKÓW
+            <a href="#modal-six" class="show-modal">PRZYCINANIE PAZURKÓW</a>
         </div>
 
         <div class="box">
-            STRZYŻENIE WETERYJNARYJNE
+            <a href="#modal-seven" class="show-modal">STRZYŻENIE WETERYJNARYJNE</a>
         </div>
 
         <div class="box">
-            WYCZESANIE KOCURKA
+            <a href="#modal-eight" class="show-modal">WYCZESANIE KOCURKA</a>
         </div>
 
         <div class="box">
-            PRZYWIEZIENIE I ODWIEZIENIE PUPILA
+            <a href="#modal-nine" class="show-modal">PRZYWIEZIENIE I ODWIEZIENIE PUPILA</a>
         </div>
+
+
+
+        <div class="overlay" id="modal-overlay">
+            <div class="modal" id="modal-one">
+                <a href="#" class="close">x</a>
+                <header>KĄPIEL OCZYSZCZAJĄCA PIELĘGNACYJNA I LECZNICZA</header>
+                <div class="content">
+                    <p>RASY MAŁE 20-40zł </p>
+                    <p>RASY ŚREDNIE 30-50zł</p>
+                    <p>RASY DUŻE 50-100zł</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-two">
+                <a href="#" class="close">x</a>
+                <header>CZESANIE Z WYCZESYWANIEM KOŁTUNKÓW</header>
+                <div class="content">
+                    <p>RASY MAŁE 50 zł/h</p>
+                    <p>RASY ŚREDNIE 50 zł/h</p>
+                    <p>RASY DUŻE 90 zł/h</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-three">
+                <a href="#" class="close">x</a>
+                <header>TRYMOWANIE</header>
+                <div class="content">
+                    <p>WEDŁUG WZORCA RASY LUB NA ŻYCZENIE<br><br> (GODZINA PRACY Z PIESKIEM NIEZALEŻNIE OD WIELKOŚCI I RASY) 70zł</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-four">
+                <a href="#" class="close">x</a>
+                <header>CZYSZCZENIE PIĘLEGNACJE USZU</header>
+                <div class="content">
+                    <p>(GDY NIE MA WIDOCZNEJ INFEKCJI)</p>
+                    <p>10-20 zł</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-five">
+                <a href="#" class="close">x</a>
+                <header>WIZYTA ADAPTACYJNA ZE SZCZENIACZKIEM</header>
+                <div class="content">
+                    <p>od 80 zł</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-six">
+                <a href="#" class="close">x</a>
+                <header>PRZYCINANIE PAZURKÓW</header>
+                <div class="content">
+                    <p>0-20zł</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-seven">
+                <a href="#" class="close">x</a>
+                <header>STRZYŻENIE WETERYJNARYJNE</header>
+                <div class="content">
+                    <p>od 50zł</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-eight">
+                <a href="#" class="close">x</a>
+                <header>WYCZESANIE KOCURKA</header>
+                <div class="content">
+                    <p>od 50zł</p>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-nine">
+                <a href="#" class="close">x</a>
+                <header>PRZYWIEZIENIE I ODWIEZIENIE PUPILA</header>
+                <div class="content">
+                    <p>wg. Martina - 20zł</p>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
@@ -147,6 +230,7 @@
         <p>Marle di Pawele<br>© All rights reserved 2020</p>
     </footer>
 
+    <script src="../js/modal.js"></script>
     <script src="../js/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGze9diDY5bK334SePptSJmP9pREP8jkE&callback=initMap">
     </script>

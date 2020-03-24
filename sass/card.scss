@@ -2,6 +2,18 @@
     --back-bg-color: white;
 }
 
+.typed-cursor {
+    display: none;
+}
+
+p.box1 {
+    margin-bottom: 20px;
+}
+
+.box h4 {
+    margin-top: 20px;
+}
+
 .cards {
     display: flex;
     justify-content: space-evenly;
@@ -47,6 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .front a {
