@@ -22,11 +22,6 @@ p.box1 {
     padding-bottom: 5vw;
 }
 
-.cards-fix {
-    flex-direction: column;
-    margin: 0 auto;
-}
-
 .card {
     position: relative;
     width: 300px;
@@ -35,7 +30,7 @@ p.box1 {
     display: inline-block;
 }
 
-.card:hover {
+.cards-fix .card:hover {
     height: 400px;
     transition: 1.2s;
 }
@@ -52,6 +47,7 @@ p.box1 {
     width: 270px;
     border: 2px solid rgb(100, 100, 100);
     color: rgb(100, 100, 100);
+    color: black;
     font-weight: bold;
     min-height: 270px;
     text-align: center;
