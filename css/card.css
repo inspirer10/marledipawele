@@ -28,11 +28,11 @@ p.box1 {
   height: 300px;
   margin: 50px auto;
   display: inline-block;
+  transition: 1.2s;
 }
 
 .cards-fix .card:hover {
   height: 400px;
-  transition: 1.2s;
 }
 
 .card .content {
