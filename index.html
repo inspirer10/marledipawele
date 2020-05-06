@@ -15,9 +15,9 @@
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/8cb5ea09ee.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/card.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/rwd.css">
 </head>
 
 <body>
@@ -33,19 +33,23 @@
                     <p class="additional">PSI SALONIK</p>
                 </div>
 
-
-                <ul>
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li class="show">
-                        <a href="cennik/index.html">CENNIK</a>
-                        <ul class="down">
-                            <li><a href="cennik/rasy.html">WG RAS</a></li>
-                            <li><a href="cennik/uslugi.html">WG USŁUG</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="galeria/index.html">GALERIA</a></li>
-                    <li><a href="kontakt/index.html">KONTAKT</a></li>
-                </ul>
+                <p class="big_p" onclick="myFunction()">
+                    MENU <span class="small_p">↕</span>
+                </p>
+                <div id="show_nav">
+                    <ul>
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li class="show">
+                            <a href="cennik/index.html">CENNIK</a>
+                            <ul class="down">
+                                <li><a href="cennik/rasy.html">WG RAS</a></li>
+                                <li><a href="cennik/uslugi.html">WG USŁUG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="galeria/index.html">GALERIA</a></li>
+                        <li><a href="kontakt/index.html">KONTAKT</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -53,6 +57,7 @@
 
     <section id="about">
         <div class="about_homepage">
+            <img class="img_mobile" src="./images/home_img1.jpg" alt="Marle">
             <h3>WITAJ W NASZYM ŚWIECIE !</h3>
             <p class="yesteryear">Czuj sie jak u siebie w domu</p>
             <h3 class="line_1">MOŻE COŚ O MNIE</h3>
@@ -214,7 +219,16 @@
         <p>Marle di Pawele<br>© All rights reserved 2020</p>
     </footer>
 
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("show_nav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
     <script src="js/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGze9diDY5bK334SePptSJmP9pREP8jkE&callback=initMap">
     </script>
